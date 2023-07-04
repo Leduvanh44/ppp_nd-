@@ -7,6 +7,9 @@ from PIL import Image
 import time
 import cv2
 import tempfile
+import mediapipe.python.solutions as solutions
+import mediapipe.python.solutions.drawing_styles
+from mediapipe.python.solutions.drawing_utils import DrawingSpec
 DEMO_IMAGE = 'demo.jpg'
 DEMO_VIDEO = 'demo.mp4'
 
